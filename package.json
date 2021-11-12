@@ -27,6 +27,6 @@
   "homepage": "https://github.com/spacerefugee/vue-js-spatial-navigation#readme",
   "dependencies": {
     "focus-options-polyfill": "^1.6.0",
-    "scroll-behavior-polyfill": "^2.0.13"
+    "scroll-behavior-polyfill": "git+https://github.com/skyswitzerland/scroll-behavior-polyfill.git"
   }
 }
