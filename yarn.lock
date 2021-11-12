@@ -2,11 +2,18 @@
 # yarn lockfile v1
 
 
-focus-options-polyfill@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/focus-options-polyfill/-/focus-options-polyfill-1.6.0.tgz#12ef3081dae9801d32dfcffd7b69259ca8f57198"
-  integrity sha512-uyrAmLZrPnUItQY5wTdg31TO9GGZRGsh/jmohUg9oLmLi/sw5y7LlTV/mwyd6rvbxIOGwmRiv6LcTS8w7Bk9NQ==
+"bigint-as-any-ts@^1.0.2":
+  "integrity" "sha512-nH70iYGVvZGjCFm5i3dksdIN6OgmTtGa2s3WbidraWDSZ7WH/PAJP3T9KP+RCGEsGJAwI3DtN8pgPIh+HxkSOg=="
+  "resolved" "https://registry.npmjs.org/bigint-as-any-ts/-/bigint-as-any-ts-1.0.2.tgz"
+  "version" "1.0.2"
 
-"scroll-behavior-polyfill@git+https://github.com/skyswitzerland/scroll-behavior-polyfill.git":
-  version "2.0.13"
-  resolved "git+https://github.com/skyswitzerland/scroll-behavior-polyfill.git#70914e56ed507bf3d8de6ed2505b46e2c2e4431d"
+"focus-options-polyfill@^1.6.0":
+  "integrity" "sha512-uyrAmLZrPnUItQY5wTdg31TO9GGZRGsh/jmohUg9oLmLi/sw5y7LlTV/mwyd6rvbxIOGwmRiv6LcTS8w7Bk9NQ=="
+  "resolved" "https://registry.npmjs.org/focus-options-polyfill/-/focus-options-polyfill-1.6.0.tgz"
+  "version" "1.6.0"
+
+"scroll-behavior-polyfill@git+https://github.com/justinbeatz/scroll-behavior-polyfill.git":
+  "resolved" "git+ssh://git@github.com/justinbeatz/scroll-behavior-polyfill.git#23c76d936750adab410b5bfa7fe522717c63cbd0"
+  "version" "2.0.13"
+  dependencies:
+    "bigint-as-any-ts" "^1.0.2"
